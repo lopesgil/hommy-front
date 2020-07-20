@@ -12,21 +12,59 @@
     <header>
         <img class="logo" src="../img/logo.png" alt="Hommy">
         <nav>
-            <a href="">Sobre</a>
-            <a href="">Funcionalidades</a>
-            <a href="">Quem somos</a>
-            <a href="">Contato</a>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#quem_somos">Quem somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <article>
-        <form>
+    <section class="slogan">
+        <h1>Trazendo a república perfeita para você</h1>
+    </section>
 
+    <section id="sobre">
+        <h2>Sobre</h2>
+    </section>
+
+    <section id="funcionalidades">
+        <h2>Funcionalidades</h2>
+        <div class="funcs">
+            <div class="demo">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="quem_somos">
+        <h2>Quem somos</h2>
+
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Em caso de dúvidas ou sugestões, entre em contato conosco:</p>
+        <form class="form_cont">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Digite seu e-mail">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
+            <button type="submit">Enviar mensagem</button>
         </form>
-    </article>
+
+    </section>
 
     <footer>
+        <div class="copyright">
+            © 2020 Hommy, Inc.
+        </div>
+        <div class="midias_sociais">
 
+        </div>
     </footer>
 </body>
 </html>
