@@ -11,36 +11,41 @@
 <body>
 
     <header>
-        <img class="logo" src="../img/logo.png" alt="Hommy">
+        <a href="index.html"> <img class="logo" src="../img/logo.png" alt="Hommy"> </a>
         <nav>
             <ul class="nav_itens">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#funcionalidades">Funcionalidades</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a class="nav_links" href="#sobre">Sobre</a></li>
+                <li><a class="nav_links" href="#funcionalidades">Funcionalidades</a></li>
+                <li><a class="nav_links" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="slogan">
-        <h1>Encontre a república perfeita para você</h1>
-    </section>
-
-    <section class="download">
-        <button type="button">Baixar agora</button>
-    </section>
+    <div class="fundo_imagem">
+        <section class="abertura">
+            <div class="slogan">
+                <h1>Encontre a república perfeita para você</h1>
+            </div>
+            <div class="download">
+                <button type="button">Baixar agora</button>
+            </div>
+        </section>
+    </div>
 
     <section id="sobre">
-        <h2>Sobre</h2>
-        <p>
-            Com o Hommy, estudantes podem facilmente encontrar repúblicas que atendam
-            suas necessidades particulares, com conforto, segurança e praticidade necessários
-            ao se escolher um lar para seus anos de estudo.
-        </p>
-        <p>
-            Proprietários têm acesso a uma plataforma de alta visibilidade e eficiência
-            para divulgar suas vagas, alcançando uma vasta base de usuários de maneira
-            prática e segura.
-        </p>
+        <div class="desc">
+            <h2>Sobre</h2>
+            <p>
+                Com o Hommy, estudantes podem facilmente encontrar repúblicas que atendam
+                suas necessidades particulares, com conforto, segurança e praticidade necessários
+                ao se escolher um lar para seus anos de estudo.
+            </p>
+            <p>
+                Proprietários têm acesso a uma plataforma de alta visibilidade e eficiência
+                para divulgar suas vagas, alcançando uma vasta base de usuários de maneira
+                prática e segura.
+            </p>
+        </div>
     </section>
 
     <section class="blocos" id="funcionalidades">
@@ -78,7 +83,7 @@
         </div>
     </section>
 
-    <section id="contato">
+    <section class="cont" id="contato">
         <h2>Contato</h2>
         <p>Em caso de dúvidas ou sugestões, entre em contato conosco:</p>
         <form class="form_cont">
@@ -102,9 +107,6 @@
     <footer>
         <div class="copyright">
             © 2020 Hommy, Inc.
-        </div>
-        <div class="midias_sociais">
-
         </div>
     </footer>
 </body>

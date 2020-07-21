@@ -7,12 +7,13 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 1vh 2vw;
+    border-bottom: 1px solid lightgray;
 }
 
 .logo {
     object-fit: cover;
     height: 100%;
-    width: 125px;
+    width: 100px;
 }
 
 .nav_itens {
@@ -22,6 +23,12 @@ header {
 
 .nav_itens li {
     padding: 0vh 1vw;
+    color: rgba(87, 90, 155, 1);
+    text-shadow: 1px 1px 3px rgba(135, 132, 243, 1);
+}
+
+.nav_links {
+    text-decoration: none;
 }
 
 .funcs {
@@ -33,7 +40,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
 }
 
 .demo p {
@@ -44,6 +51,50 @@ section {
     margin: auto;
     width: 85vw;
     text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+button {
+    background-color: rgba(135, 132, 243, 1);
+    border: 1px solid rgba(87, 90, 155, 1);
+    border-radius: 2px;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fundo_imagem {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.abertura {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 45vh;
+}
+
+.download {
+    margin-bottom: 03%;
+}
+
+h1 {
+    font-size: 1.3em;
+    color: rgba(135, 132, 243, 1);
+    text-shadow: 2px 2px 4px black;
+}
+
+h2, h3 {
+    color: rgba(87, 90, 155, 1);
+}
+
+.desc {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form_cont {
@@ -69,9 +120,26 @@ section {
     margin-bottom: 1%;
 }
 
+.cont {
+    border: none;
+}
+
 @media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+
     section {
         width: 75vw;
+    }
+
+    .download button {
+        font-size: 1.5em;
+        padding: 1% 4%;
+    }
+
+    .desc {
+        width: 50vw;
     }
 
     .funcs {
